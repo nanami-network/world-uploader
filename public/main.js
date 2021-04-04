@@ -61,10 +61,14 @@ function sendFile(file, prefix, path, root, last, callback) {
  * @type {{[name: string]: { requires: Number, version: string }}}
  */
 const table = {
-  a: {
+  tct: {
     requires: 1343,
     version: '1.12.2',
   },
+  yuki: {
+      requires: 1343,
+      version: '1.12.2',
+  }
 }
 
 picker.addEventListener('change', () => {
